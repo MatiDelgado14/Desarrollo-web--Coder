@@ -1,0 +1,640 @@
+@font-face {
+    font-family: 'agbalumo';
+    src: url(../satisfy/Satisfy-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+/*header nuestros trabajos*/
+
+.nuestros-trabajos-h {
+    display: flex;
+    position: none;
+}
+
+/*gridindex*/
+.bodyindex {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.headerindex {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    grid-row: 1;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.paginadeinicio {
+    padding: 20px;
+    text-align: center;
+    grid-row: 2;
+}
+
+h1, h2, p {
+    margin-bottom: 15px;
+}
+
+.footerindex {
+    background-color: rgba(240, 210, 234);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    grid-row: 3;
+}
+
+
+
+/* header general*/
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    background-color: rgba(240, 210, 234);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.logo {
+    display: block;
+    width: 150px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.979);
+    font-family: 'agbalumo';
+    text-decoration: none;
+    font-size: 2.2rem;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+header nav .inicio {
+    color: rgb(174, 255, 251);
+    text-decoration: none;
+
+}
+
+.inicio:hover {
+    text-decoration: underline;
+
+}
+
+header nav .cursos {
+    color: rgb(255, 118, 210);
+    text-decoration: none;
+}
+
+.cursos:hover {
+    text-decoration: underline;
+}
+
+header nav .nuestros-trabajos {
+    color: rgb(255, 139, 60);
+    text-decoration: none;
+}
+
+.nuestros-trabajos:hover {
+    text-decoration: underline;
+}
+
+
+header nav .inscribite {
+    color: rgb(254, 233, 160);
+    text-decoration: none;
+}
+
+.inscribite:hover {
+    text-decoration: underline;
+}
+
+header nav .habla-con-nosotros {
+    color: rgb(221, 140, 255);
+    text-decoration: none;
+}
+
+.habla-con-nosotros:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* body index.html */
+.paginadeinicio {
+    background-image: url(../ImaginesYvideos/ZafiroStudio2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
+
+
+/* Body */
+
+
+h1 {
+    color: lightpink;
+    font-family: 'agbalumo';
+    font-size: 8rem;
+    text-align: center;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+h2 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: lightsalmon;
+    font-family: 'agbalumo';
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+body p {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: lightsalmon;
+    font-family: 'agbalumo';
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+.parrafo-final {
+    margin-top: 50px;
+}
+
+body div {
+    text-align: justify;
+}
+
+img {
+    width: 20%;
+}
+
+/* Body nuestros trabajos */
+
+.nuestrostrabajos {
+    background-color: rgb(179, 146, 186);
+}
+
+.contactanos1 {
+    color: rgb(232, 179, 227);
+    text-decoration: none;
+
+}
+
+.contactanos1:hover {
+    text-decoration: underline;
+
+}
+
+.titulonuestrostrabajos {
+    color: lightpink;
+    font-family: 'agbalumo';
+    font-size: 8rem;
+    text-align: center;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+.subtitulonuestrostrabajos {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: lightsalmon;
+    font-family: 'agbalumo';
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+
+/*Body Cursos*/
+h3 {
+    font-family: 'agbalumo';
+    font-size: 3rem;
+    color: lightsalmon;
+    text-align: center;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+.introduccion p {
+    text-shadow: none;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+
+}
+
+
+.kapping {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.kapping img {
+    display: block;
+    justify-content: right;
+    width: 150px;
+    border: solid lightsalmon;
+    margin-right: 10px;
+    border-radius: 25px;
+    transition: all .4s ease-in-out;
+}
+
+.kapping img:hover {
+    transform: scale(2.0);
+}
+
+.kapping p {
+    text-align: left;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+.esculpidas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.esculpidas img {
+    display: block;
+    justify-content: right;
+    width: 150px;
+    border: solid lightsalmon;
+    margin-right: 10px;
+    border-radius: 25px;
+    transition: all .4s ease-in-out;
+}
+
+.esculpidas img:hover {
+    transform: scale(2.0);
+}
+
+.esculpidas p {
+    text-align: left;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+.semipermanente {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.semipermanente img {
+    display: block;
+    justify-content: right;
+    width: 150px;
+    border: solid lightsalmon;
+    margin-right: 10px;
+    border-radius: 25px;
+    transition: all .4s ease-in-out;
+}
+
+.semipermanente img:hover {
+    transform: scale(2.0);
+}
+
+.semipermanente p {
+    text-align: left;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+
+}
+
+.esmaltado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.esmaltado p {
+    text-align: left;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+.pestañas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.pestañas img {
+    display: block;
+    justify-content: right;
+    width: 150px;
+    border: solid lightsalmon;
+    margin-right: 10px;
+    border-radius: 25px;
+    transition: all .4s ease-in-out;
+}
+
+.pestañas img:hover {
+    transform: scale(2.0);
+}
+
+.pestañas p {
+    text-align: left;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+.cejas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.cejas img {
+    display: block;
+    justify-content: right;
+    width: 150px;
+    border: solid lightsalmon;
+    margin-right: 10px;
+    border-radius: 25px;
+    transition: all .4s ease-in-out;
+}
+
+.cejas img:hover {
+    transform: scale(2.0);
+}
+
+.cejas p {
+    text-align: left;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+.texto-final {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto-final p {
+    text-shadow: none;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+}
+
+.body-cursos {
+    background-color: rgb(179, 146, 186);
+
+}
+
+
+/*grid cursos*/
+
+
+
+
+/*body de inscripciones*/
+.inscripciones {
+    background-color: rgb(179, 146, 186);
+}
+
+.mb-4 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: lightsalmon;
+    font-family: 'agbalumo';
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+
+}
+
+.form-control {
+    height: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'agbalumo';
+    color: white;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+
+}
+
+#fechaNacimiento {
+    font-size: 14px;
+
+
+
+}
+
+#nombre {
+    font-size: 14px;
+}
+
+#apellido {
+    font-size: 14px;
+}
+
+#direccion {
+    font-size: 14px;
+}
+
+#ciudad {
+    font-size: 14px;
+}
+
+#provincia {
+    font-size: 14px;
+}
+
+#curso {
+    font-size: 14px;
+}
+
+
+
+
+/* body contactos*/
+
+.titulocontactos {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: lightsalmon;
+    font-family: 'agbalumo';
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.92);
+
+}
+
+.redes-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 700px;
+
+}
+
+.redes-conteiner ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.redes-conteiner ul li {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: dimgray;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+.redes-conteiner ul li a i {
+    color: aliceblue;
+}
+
+.redes-conteiner ul li:hover {
+    transform: scale(1.2);
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+
+/* Footer */
+
+
+footer {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-shadow: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.5rem;
+    color: rgb(28, 28, 28);
+}
+
+footer p {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-shadow: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+footer {
+    background-color: rgba(240, 210, 234);
+
+}
+
+
+
+/* carrusel*/
+
+.carrusel {
+    display: flex;
+    align-items: center;
+
+}
+
+/* media*/
+
+@media only screen and (max-width: 500px) {
+    .headerindex {
+        background-color: #fff;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bodyindex {
+        background-image: none;
+        background-color: white;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .footerindex {
+        padding: 5px;
+    }
+}
